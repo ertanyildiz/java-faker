@@ -2,7 +2,7 @@
 tr:
   faker:
     name:
-      first_name: [Mehmet, Yiğit, Batuhan, Burak, İrem, Buse, Selim, Caner]
+      first_name: [Ertan]
       last_name: [Davut, Sağdıç, Özdemir, Özkanlı, Ekkaldır, Zengel, Eren]
       prefix: [Sn., Av., Dr.]
       title:
