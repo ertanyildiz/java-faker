@@ -1,4 +1,4 @@
 en:
   faker:
     computer:
-      os_names: ["windows", "ios", "android", "macos", "linux"]
+      os_names: ["windows", "ios", "android", "linux", "macos"]
