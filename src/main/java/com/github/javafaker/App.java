@@ -8,7 +8,7 @@ public class App {
     }
 
     public String name() {
-        return faker.fakeValuesService().resolve("app.name", this, faker);
+                return faker.fakeValuesService().resolve("app.name", this, faker);
     }
 
     public String version() {

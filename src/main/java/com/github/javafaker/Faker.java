@@ -34,6 +34,7 @@ public class Faker {
     private final ChuckNorris chuckNorris;
     private final Color color;
     private final Commerce commerce;
+    private final Computer computer;
     private final Country country;
     private final Currency currency;
     private final Company company;
@@ -132,6 +133,7 @@ public class Faker {
         this.idNumber = new IdNumber(this);
         this.hacker = new Hacker(this);
         this.company = new Company(this);
+        this.computer = new Computer(this);
         this.crypto = new Crypto(this);
         this.elderScrolls = new ElderScrolls(this);
         this.commerce = new Commerce(this);
