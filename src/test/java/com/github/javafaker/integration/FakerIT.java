@@ -102,6 +102,7 @@ public class FakerIT {
         testAllMethodsThatReturnStringsActuallyReturnStrings(faker.color());
         testAllMethodsThatReturnStringsActuallyReturnStrings(faker.commerce());
         testAllMethodsThatReturnStringsActuallyReturnStrings(faker.company());
+        testAllMethodsThatReturnStringsActuallyReturnStrings(faker.computer());
         testAllMethodsThatReturnStringsActuallyReturnStrings(faker.country());
         testAllMethodsThatReturnStringsActuallyReturnStrings(faker.crypto());
         testAllMethodsThatReturnStringsActuallyReturnStrings(faker.demographic());
