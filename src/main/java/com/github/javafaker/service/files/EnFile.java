@@ -53,6 +53,7 @@ public class EnFile {
             "community.yml",
             "company.yml",
             "compass.yml",
+            "computer.yml",
             "construction.yml",
             "cosmere.yml",
             "country.yml",
