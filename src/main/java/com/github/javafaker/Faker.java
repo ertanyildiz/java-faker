@@ -533,6 +533,10 @@ public class Faker {
         return rickAndMorty;
     }
 
+    public Computer computer(){
+        return computer;
+    }
+
     public Yoda yoda() {
         return yoda;
     }
