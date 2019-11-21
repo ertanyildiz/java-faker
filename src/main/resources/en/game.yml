@@ -281,25 +281,25 @@ en:
         - 'Sega Saturn'
         - 'Sega Dreamcast'
         - 'Virtual Boy'
-       itempack:
+      itempack:
         - 'CoinPack'
         - 'LifePack'
         - 'SilverPack'
         - 'GolderPack'
-       sourcetype:
+      sourcetype:
         - 'continuity'
         - 'boost'
         - 'reward'
         - 'purchase'
-       source:
+      source:
         - 'startGame'
         - 'rainbowBoost'
         - 'videoAd'
         - 'goldPack'
-       resourcetype:
+      resourcetype:
         - 'life'
         - 'gold'
-       world:
+      world:
         - 'wildWest'
         - 'deltora'
         - 'earthsea'
