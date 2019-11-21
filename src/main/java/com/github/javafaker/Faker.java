@@ -96,6 +96,13 @@ public class Faker {
     private final Dune dune;
     private final AquaTeenHungerForce aquaTeenHungerForce;
     private final ProgrammingLanguage programmingLanguage;
+    private final BuyItem buyItem;
+    private final CollectResource collectResource;
+    private final DrainSource drainSource;
+    private final StartLevel startLevel;
+    private final EndLevel endLevel;
+    private final Progress progress;
+
 
     public Faker() {
         this(Locale.ENGLISH);
@@ -193,6 +200,12 @@ public class Faker {
         this.dune = new Dune(this);
         this.aquaTeenHungerForce = new AquaTeenHungerForce(this);
         this.programmingLanguage = new ProgrammingLanguage(this);
+        this.buyItem = new BuyItem(this);
+        this.collectResource = new CollectResource(this);
+        this.drainSource = new DrainSource(this);
+        this.endLevel = new EndLevel(this);
+        this.startLevel = new StartLevel(this);
+        this.progress = new Progress(this);
     }
 
     /**
@@ -625,6 +638,24 @@ public class Faker {
 
     public ProgrammingLanguage programmingLanguage() {
         return programmingLanguage;
+    }
+    public DrainSource drainSource() {
+        return drainSource;
+    }
+    public StartLevel startLevel() {
+        return startLevel;
+    }
+    public EndLevel endLevel() {
+        return endLevel;
+    }
+    public Progress progress() {
+        return progress;
+    }
+    public CollectResource collectResource() {
+        return collectResource;
+    }
+    public BuyItem buyItem() {
+        return buyItem;
     }
 
     public String resolve(String key) {
